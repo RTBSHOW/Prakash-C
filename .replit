@@ -76,4 +76,4 @@ author = 39926451
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "gcc paul.c -o paul && ./paul"
+args = "gcc $file -o ./bin/$fileBase && ./bin/$fileBase"
