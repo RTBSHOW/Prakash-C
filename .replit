@@ -66,3 +66,14 @@ pattern = "**/*.{c,h}"
 
 [languages.c.languageServer]
 start = "ccls"
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 39926451
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc paul.c -o paul && ./paul"

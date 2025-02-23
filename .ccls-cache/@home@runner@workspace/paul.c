@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-  int a, b, c;
+  int a;
+  float b;
+  char c;
   scanf("%d %f %c", &a, &b, &c);
-  printf("%d %F %c", a,b,c);
+  printf("%d %f %c", \a,\b,\c);
   return 0;
 }
