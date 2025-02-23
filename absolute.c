@@ -9,4 +9,5 @@ int x;
   if(x<0){
     int x=x*(-1);
     printf("Absolute value is :%d",x);  }
-return 0}
+return 0;
+}
