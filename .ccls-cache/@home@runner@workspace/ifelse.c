@@ -6,5 +6,5 @@ int main() {
   if(x>0) printf("Positive Number");
   if(x<0) printf("Negative Number");
   if (x==0) printf("Zero");
-  return0;
+  return 0;
 }
